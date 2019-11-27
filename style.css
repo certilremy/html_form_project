@@ -4,6 +4,7 @@ body {
 }
 
 nav {
+    min-width: 1400px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -25,6 +26,7 @@ nav {
 }
 
 .container {
+    min-width: 1400px;;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +95,10 @@ form {
     text-align: center;
 }
 
+.disclTwo{
+    text-align: center;
+}
+
 .formFooter {
     width: 100%;
     display: flex;
@@ -114,14 +120,14 @@ form {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 footer p {
     width: 75%;
-    ;
+    text-align: center;
 }
